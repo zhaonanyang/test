@@ -1,0 +1,72 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Mini娱乐 &rsaquo; 登录</title>
+	<link rel='stylesheet' id='login-css'  href='/mini/Public/admin/css/login.min.css?ver=4.1.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='login-css'  href='/mini/Public/admin/css/L_layout.css?ver=4.1.1' type='text/css' media='all' />
+	<meta name='robots' content='noindex,follow' />
+	<link rel="stylesheet" href="/mini/Public/css/L_layout.css"  />
+	<head>
+		<script type="text/javascript">
+			function ab(){
+			var W=document.documentElement.clientWidth;
+			var H=document.documentElement.clientHeight;
+			var L=document.getElementById('headerline_login');/*logo*/
+			L.style.width=W+'px';
+			L.style.height=H+'px';
+			var L2=document.getElementById('login_HL');/*logo*/
+			L2.style.left=(W-420)/2+'px';
+			L2.style.top=(H-500)/2+'px';
+			var L3=document.getElementById('logo');/*logo*/
+			L3.style.left=(W-160)/2+'px';
+			L3.style.bottom=(H-40)/10+'px';
+
+			}
+			window.onload=function(){
+			ab()
+			}
+			window.onresize=function(){
+			ab()
+			}
+		</script>
+	</head>
+	<body class="login login-action-login wp-core-ui  locale-zh-cn">
+		<div id="headerline_login" style="width: 1440px; height: 444px;">
+			<div id="login">		
+				<p class="headerline_login_title">Mini娱乐 </p>	
+				<form name="loginform" id="loginform" action="<?php echo U('Admin/Login/checklogin');?>" method="post">
+					<p>
+					<label for="user_login">用户名：<br />
+					<input type="text" name="user_login" id="user_login" class="input" value="" size="20" /></label>
+					</p>
+					<p>
+					<label for="user_pass">密码<br />
+					<input type="password" name="user_pass" id="user_pass" class="input" value="" size="20" /></label>
+					</p>
+					<p class="submit">
+					<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="登录" />
+					<input type="hidden" name="redirect_to" value="http://www.qctt.cn/wp-admin/index.php" />
+					<input type="hidden" name="testcookie" value="1" />
+					</p>
+				</form>
+
+			<script type="text/javascript">
+				function wp_attempt_focus(){
+				setTimeout( function(){ try{
+				d = document.getElementById('user_login');
+				d.focus();
+				d.select();
+				} catch(e){}
+				}, 200);
+				}
+
+				wp_attempt_focus();
+				if(typeof wpOnload=='function')wpOnload();
+			</script>
+			<p id="backtoblog"><a href="C('WEB_URL')" title="不知道自己在哪？">&larr; 回到Mini官网</a></p>
+			</div>
+		</div>
+
+	<div class="clear"></div>
+	</body>
+</html>

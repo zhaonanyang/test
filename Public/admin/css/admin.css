@@ -1,0 +1,128 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+img{
+	border:none;
+}
+
+ul{
+	list-style:none;
+}
+body {
+	font-size: 12px; line-height: 150%; font-family: "verdana", "arial", "helvetica", "sans-serif"
+}
+table {
+	font-size: 12px; line-height: 150%; font-family: "verdana", "arial", "helvetica", "sans-serif"
+}
+input {
+	font-size: 12px; font-family: "verdana", "arial", "helvetica", "sans-serif"
+}
+select {
+	font-size: 12px; font-family: "verdana", "arial", "helvetica", "sans-serif"
+}
+textarea {
+	font-size: 12px; font-family: "verdana", "arial", "helvetica", "sans-serif"
+}
+a:link {
+	color: #036; text-decoration: none
+}
+a:visited {
+	color: #036; text-decoration: none
+}
+a:hover {
+	color: #f60; text-decoration: underline
+}
+a.menuchild:link {
+	color: #036; text-decoration: none
+}
+a.menuchild:visited {
+	color: #036; text-decoration: none
+}
+a.menuchild:hover {
+	color: #f60; text-decoration: underline
+}
+a.menuparent:link {
+	color: #000; text-decoration: none
+}
+a.menuparent:visited {
+	color: #000; text-decoration: none
+}
+a.menuparent:hover {
+	color: #f60; text-decoration: none
+}
+
+.w880{
+	width:880px;
+	line-height:38px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+/*===============*/
+table.dataintable {
+	font-family:arial, helvetica, sans-serif;
+	margin-top:10px;
+	border-collapse:collapse;
+	border:1px solid #ccc;
+	font-size:12px;
+	}
+	
+	table.dataintable a {
+		color:#000;
+	}
+	
+	table.dataintable a:hover {
+		color:#33f;
+	}
+table.dataintable pre {
+	width:auto;
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:transparent;
+	}
+table.dataintable th {
+	vertical-align:baseline;
+	padding:8px 8px 8px 8px;
+	background-color:#efefef;
+	border:1px solid #ccc;
+	text-align:center;
+	color:#900;
+	font-size:14px;
+	}
+table.dataintable td {
+	vertical-align:text-top;
+	padding:2px 5px 2px 5px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	}
+table.dataintable span.goods_lable{
+  display:block;
+  float:left;
+  text-align:right;
+  margin-right:10px;
+  line-height:12px;
+  font-family:Î¢ÈíÑÅºÚ,ºÚÌå;
+}
+input{
+ width:150px;
+ height:20px;
+}
+textarea{
+ width:150px;
+ height:80px;
+}
+.index_bg{ background-color:#316d00; background:url(../../images/body_bg1.jpg) center center;}
+.index_login{ margin:150px auto 0 auto; width:340px; height:190px; background-color:#198a19; border:#a0aa03 1px solid; padding-top:6px;}
+
+.index_login ul li{ height:36px; line-height:36px; font-family:Î¢ÈíÑÅºÚ,ºÚÌå,ËÎÌå; font-size:18px; font-weight:bold; color:#fff;}
+.index_login li input{ width:150px; height:18px; line-height:18px;}
+.index_login center{ font-size:18px; line-height:36px; font-weight:bold; font-family:Î¢ÈíÑÅºÚ,ºÚÌå,ËÎÌå; color:#e6dd39;}
+
+.sub,.res{
+width:79px; height:25px; border:none; cursor:hand;color:#000;
+background:#F37B00;
+}
+
